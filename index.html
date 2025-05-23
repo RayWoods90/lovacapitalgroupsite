@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Empowering families through financial and investment education.">
+  <title>Lova Capital Group</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+    .red-accent {
+      color: #e42020;
+    }
+    .video-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.3;
+    }
+  </style>
+</head>
+<body class="font-sans relative overflow-x-hidden">
+
+  <header class="sticky top-0 bg-white bg-opacity-90 z-50 shadow-md">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <img src="Business Logo Transparent.png" alt="Lova Capital Group" class="h-12">
+      <nav class="space-x-4 text-sm text-gray-700">
+        <a href="#home" class="hover:text-red-500">Home</a>
+        <a href="#about" class="hover:text-red-500">About</a>
+        <a href="#services" class="hover:text-red-500">Services</a>
+        <a href="#contact" class="hover:text-red-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="relative min-h-screen flex items-center justify-center text-center px-4">
+    <video autoplay muted loop playsinline class="video-bg">
+      <source src="LCG-Site-Video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div>
+      <h1 class="text-4xl md:text-6xl font-bold text-gray-900">Welcome to <span class="red-accent">Lova Capital Group</span></h1>
+      <p class="mt-4 text-lg text-gray-700">Empowering families through financial and investment education.</p>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-white px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">About Us</h2>
+      <p class="text-gray-700">Lova Capital Group is dedicated to providing accessible, impactful financial education to help individuals and communities build lasting wealth. We believe in clarity, honesty, and empowerment through knowledge.</p>
+    </div>
+  </section>
+
+  
+
+<section id="services" class="py-20 bg-gray-100 px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Our Services</h2>
+    <div class="grid gap-6 md:grid-cols-3 text-center">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="1 on 1 coaching.png" alt="1-on-1 Coaching" class="mx-auto mb-4 h-24">
+        <h3 class="text-xl font-semibold mb-2">1-on-1 Coaching</h3>
+        <p class="text-gray-700">Personalized coaching tailored to your finances—actionable guidance to help you build real wealth.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="Online Courses.png" alt="Online Courses" class="mx-auto mb-4 h-24">
+        <h3 class="text-xl font-semibold mb-2">Online Courses</h3>
+        <p class="text-gray-700">Self-paced financial education modules designed for modern learners.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="Mindset Training.png" alt="Mindset Training" class="mx-auto mb-4 h-24">
+        <h3 class="text-xl font-semibold mb-2">Mindset Training</h3>
+        <p class="text-gray-700">Transform how you think about money, wealth, and success—because your mindset is the foundation of your financial future.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="contact" class="py-20 bg-white px-4">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST" class="space-y-4 text-left">
+        <input type="text" name="name" aria-label="Name" placeholder="Name" class="w-full p-3 rounded bg-gray-100 text-gray-800 border border-gray-300">
+        <input type="email" name="email" aria-label="Email" placeholder="Email" class="w-full p-3 rounded bg-gray-100 text-gray-800 border border-gray-300">
+        <textarea name="message" aria-label="Message" placeholder="Your Message" rows="5" class="w-full p-3 rounded bg-gray-100 text-gray-800 border border-gray-300"></textarea>
+        <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-200 text-center py-6 text-gray-700 text-sm">
+    <p>&copy; 2025 Lova Capital Group. All rights reserved.</p>
+    <p>741 Piedmont Ave NE Ste 200 #1375 Atlanta, GA 30308 | 888-345-3226</p>
+    <div class="mt-2">
+      <a href="privacy.html" class="hover:underline">Privacy Policy</a> |
+      <a href="terms.html" class="hover:underline">Terms & Conditions</a>
+    </div>
+  </footer>
+
+</body>
+</html>
