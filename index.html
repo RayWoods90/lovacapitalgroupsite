@@ -90,13 +90,11 @@
     <div class="max-w-xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
       <form action="https://formspree.io/f/mjkwqeqa" method="POST" class="space-y-4 text-left">
-  <input type="hidden" name="_next" value="https://lovacapitalgroup.com/thank-you.html">
-  
   <label class="block">
     <span class="text-gray-700">Your name:</span>
     <input type="text" name="name" required class="mt-1 w-full p-3 rounded bg-gray-100 text-gray-800 border border-gray-300">
   </label>
-
+  
   <label class="block">
     <span class="text-gray-700">Your email:</span>
     <input type="email" name="email" required class="mt-1 w-full p-3 rounded bg-gray-100 text-gray-800 border border-gray-300">
@@ -107,8 +105,21 @@
     <textarea name="message" required rows="5" class="mt-1 w-full p-3 rounded bg-gray-100 text-gray-800 border border-gray-300"></textarea>
   </label>
 
+  <!-- Marketing Consent Checkbox -->
+  <label class="block text-sm text-gray-700">
+    <input type="checkbox" name="marketing-consent" required class="mr-2">
+    I consent to receive marketing text messages from Lova Capital Group at the phone number provided. Frequency may vary. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.
+  </label>
+
+  <!-- Non-Marketing Consent Checkbox -->
+  <label class="block text-sm text-gray-700">
+    <input type="checkbox" name="nonmarketing-consent" required class="mr-2">
+    I consent to receive non-marketing text messages from Lova Capital Group about my order updates, appointment reminders, etc. Frequency may vary. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.
+  </label>
+
   <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded">Send Message</button>
 </form>
+
 
 
     </div>
